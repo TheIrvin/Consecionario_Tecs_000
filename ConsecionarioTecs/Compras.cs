@@ -16,5 +16,15 @@ namespace FormularioDeInicio
         {
             InitializeComponent();
         }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void º(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

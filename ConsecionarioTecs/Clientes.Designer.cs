@@ -58,9 +58,10 @@
             this.lblEstadisticas1.AutoSize = true;
             this.lblEstadisticas1.BackColor = System.Drawing.Color.Transparent;
             this.lblEstadisticas1.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstadisticas1.Location = new System.Drawing.Point(8, 0);
+            this.lblEstadisticas1.Location = new System.Drawing.Point(11, 0);
+            this.lblEstadisticas1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEstadisticas1.Name = "lblEstadisticas1";
-            this.lblEstadisticas1.Size = new System.Drawing.Size(124, 26);
+            this.lblEstadisticas1.Size = new System.Drawing.Size(157, 34);
             this.lblEstadisticas1.TabIndex = 2;
             this.lblEstadisticas1.Text = "CLIENTES";
             this.lblEstadisticas1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -70,8 +71,9 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(5, 26);
+            this.panel1.Size = new System.Drawing.Size(7, 32);
             this.panel1.TabIndex = 4;
             // 
             // lblxEst
@@ -79,9 +81,10 @@
             this.lblxEst.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblxEst.AutoSize = true;
             this.lblxEst.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblxEst.Location = new System.Drawing.Point(770, 0);
+            this.lblxEst.Location = new System.Drawing.Point(1027, 0);
+            this.lblxEst.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblxEst.Name = "lblxEst";
-            this.lblxEst.Size = new System.Drawing.Size(27, 26);
+            this.lblxEst.Size = new System.Drawing.Size(35, 34);
             this.lblxEst.TabIndex = 3;
             this.lblxEst.Text = "X";
             this.lblxEst.Click += new System.EventHandler(this.lblxEst_Click);
@@ -92,22 +95,26 @@
             this.panelContenedorClientes.Controls.Add(this.dtgvContendorClientes);
             this.panelContenedorClientes.Controls.Add(this.toolStrip1);
             this.panelContenedorClientes.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelContenedorClientes.Location = new System.Drawing.Point(0, 32);
+            this.panelContenedorClientes.Location = new System.Drawing.Point(0, 40);
+            this.panelContenedorClientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelContenedorClientes.Name = "panelContenedorClientes";
-            this.panelContenedorClientes.Size = new System.Drawing.Size(800, 418);
+            this.panelContenedorClientes.Size = new System.Drawing.Size(1067, 514);
             this.panelContenedorClientes.TabIndex = 5;
             // 
             // dtgvContendorClientes
             // 
             this.dtgvContendorClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvContendorClientes.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dtgvContendorClientes.Location = new System.Drawing.Point(0, 28);
+            this.dtgvContendorClientes.Location = new System.Drawing.Point(0, 31);
+            this.dtgvContendorClientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtgvContendorClientes.Name = "dtgvContendorClientes";
-            this.dtgvContendorClientes.Size = new System.Drawing.Size(800, 390);
+            this.dtgvContendorClientes.RowHeadersWidth = 51;
+            this.dtgvContendorClientes.Size = new System.Drawing.Size(1067, 483);
             this.dtgvContendorClientes.TabIndex = 1;
             // 
             // toolStrip1
             // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ttlbFiltrar,
             this.tstxtFiltrar,
@@ -124,21 +131,21 @@
             this.tsbtnImprimir});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1067, 31);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // ttlbFiltrar
             // 
             this.ttlbFiltrar.Name = "ttlbFiltrar";
-            this.ttlbFiltrar.Size = new System.Drawing.Size(40, 22);
+            this.ttlbFiltrar.Size = new System.Drawing.Size(50, 24);
             this.ttlbFiltrar.Text = "Filtrar:";
             // 
             // tstxtFiltrar
             // 
             this.tstxtFiltrar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tstxtFiltrar.Name = "tstxtFiltrar";
-            this.tstxtFiltrar.Size = new System.Drawing.Size(110, 25);
+            this.tstxtFiltrar.Size = new System.Drawing.Size(145, 27);
             // 
             // tsbtnFiltrar
             // 
@@ -146,88 +153,90 @@
             this.tsbtnFiltrar.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnFiltrar.Image")));
             this.tsbtnFiltrar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnFiltrar.Name = "tsbtnFiltrar";
-            this.tsbtnFiltrar.Size = new System.Drawing.Size(23, 22);
+            this.tsbtnFiltrar.Size = new System.Drawing.Size(29, 28);
             this.tsbtnFiltrar.Text = "toolStripButton1";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(58, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(71, 24);
             this.toolStripLabel1.Text = "Acciones:";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbtnAgregarCliente
             // 
             this.tsbtnAgregarCliente.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnAgregarCliente.Image")));
             this.tsbtnAgregarCliente.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnAgregarCliente.Name = "tsbtnAgregarCliente";
-            this.tsbtnAgregarCliente.Size = new System.Drawing.Size(69, 22);
+            this.tsbtnAgregarCliente.Size = new System.Drawing.Size(87, 24);
             this.tsbtnAgregarCliente.Text = "Agregar";
             this.tsbtnAgregarCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tsbtnAgregarCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.tsbtnAgregarCliente.Click += new System.EventHandler(this.tsbtnAgregarCliente_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 27);
             // 
             // tsBtnModificarCliente
             // 
             this.tsBtnModificarCliente.Image = ((System.Drawing.Image)(resources.GetObject("tsBtnModificarCliente.Image")));
             this.tsBtnModificarCliente.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsBtnModificarCliente.Name = "tsBtnModificarCliente";
-            this.tsBtnModificarCliente.Size = new System.Drawing.Size(78, 22);
+            this.tsBtnModificarCliente.Size = new System.Drawing.Size(97, 24);
             this.tsBtnModificarCliente.Text = "Modificar";
             this.tsBtnModificarCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbtnEliminar
             // 
             this.tsbtnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnEliminar.Image")));
             this.tsbtnEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnEliminar.Name = "tsbtnEliminar";
-            this.tsbtnEliminar.Size = new System.Drawing.Size(70, 22);
+            this.tsbtnEliminar.Size = new System.Drawing.Size(87, 24);
             this.tsbtnEliminar.Text = "Eliminar";
             this.tsbtnEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbtnImprimir
             // 
             this.tsbtnImprimir.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnImprimir.Image")));
             this.tsbtnImprimir.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnImprimir.Name = "tsbtnImprimir";
-            this.tsbtnImprimir.Size = new System.Drawing.Size(73, 22);
+            this.tsbtnImprimir.Size = new System.Drawing.Size(90, 24);
             this.tsbtnImprimir.Text = "Imprimir";
             this.tsbtnImprimir.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
             // Clientes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panelContenedorClientes);
             this.Controls.Add(this.lblxEst);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblEstadisticas1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Clientes";
             this.Text = "Clientes";
             this.Load += new System.EventHandler(this.Clientes_Load);
