@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsecionarioTecs;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,14 +13,17 @@ namespace FormularioDeInicio
 {
     public partial class Usuarios : Form
     {
+        Conexion_BDD conSQL = new Conexion_BDD();
+        int bandera = 0;
+        int usuarioxPag = 40;
         public Usuarios()
         {
             InitializeComponent();
         }
 
-        private void lblEstadisticas1_Click(object sender, EventArgs e)
+        private void Usuarios_Load(object sender, EventArgs e)
         {
-
+            dtgvContenedorUsuarios.DataSource = conSQL.retornaRegistros("Select * from Clientes");
         }
     }
 }

@@ -21,16 +21,6 @@ namespace FormularioDeInicio
             InitializeComponent();
         }
 
-        private void lblEstadisticas1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblxEst_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Clientes_Load(object sender, EventArgs e)
         {
             dtgvContendorClientes.DataSource = conSQL.retornaRegistros("Select * from Clientes");
