@@ -14,8 +14,8 @@ namespace FormularioDeInicio
     public partial class Clientes : Form
     {
         Conexion_BDD conSQL = new Conexion_BDD();
-        int bandera = 0;
-        int clientexPag = 40;
+        //int bandera = 0;
+        //int clientexPag = 40;
         public Clientes()
         {
             InitializeComponent();
