@@ -116,7 +116,7 @@
             this.tsbtnImprimirCompras});
             this.toolStrip2.Location = new System.Drawing.Point(0, 35);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(1067, 31);
+            this.toolStrip2.Size = new System.Drawing.Size(1067, 27);
             this.toolStrip2.TabIndex = 6;
             this.toolStrip2.Text = "toolStrip2";
             // 
@@ -138,7 +138,7 @@
             this.tsbtnFiltrarCompras.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnFiltrarCompras.Image")));
             this.tsbtnFiltrarCompras.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnFiltrarCompras.Name = "tsbtnFiltrarCompras";
-            this.tsbtnFiltrarCompras.Size = new System.Drawing.Size(29, 28);
+            this.tsbtnFiltrarCompras.Size = new System.Drawing.Size(29, 24);
             this.tsbtnFiltrarCompras.Text = "toolStripButton1";
             // 
             // toolStripSeparator1
@@ -229,7 +229,7 @@
             this.Controls.Add(this.dtgvContendorCompras);
             this.Controls.Add(this.toolStrip2);
             this.Controls.Add(this.panaleta);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Compras";
             this.Text = "Compras";
             this.panaleta.ResumeLayout(false);
