@@ -63,6 +63,7 @@
             this.Controls.Add(this.lblEstadisticas1);
             this.Name = "Ventas";
             this.Text = "Ventas";
+            this.Load += new System.EventHandler(this.Ventas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

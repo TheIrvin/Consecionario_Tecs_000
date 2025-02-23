@@ -22,11 +22,37 @@ namespace FormularioDeInicio
 
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void pnl_agregar_motos_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bt_agregar_moto_Click(object sender, EventArgs e)
+        {
+            
+        }
+        
+
+        public void BtEditar_Click(object sender, EventArgs e)
+        {
+            // Lógica de edición (aquí puedes agregar lo que necesites para editar)
+            MessageBox.Show("Editar la moto");
+        }
+
+        private void Productos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+

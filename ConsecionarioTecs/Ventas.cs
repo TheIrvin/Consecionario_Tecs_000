@@ -16,5 +16,10 @@ namespace FormularioDeInicio
         {
             InitializeComponent();
         }
+
+        private void Ventas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

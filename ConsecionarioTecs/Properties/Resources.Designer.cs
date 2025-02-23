@@ -193,6 +193,16 @@ namespace ConsecionarioTecs.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Moto_roja {
+            get {
+                object obj = ResourceManager.GetObject("Moto_roja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MotoProductos_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("MotoProductos-removebg-preview", resourceCulture);

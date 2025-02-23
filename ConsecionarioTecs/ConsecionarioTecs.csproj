@@ -223,6 +223,7 @@
     <Content Include="resources\Mobile-Menu-Icon.png" />
     <Content Include="resources\Mobile-Menu-Icon1.png" />
     <Content Include="resources\MotoProductos-removebg-preview.png" />
+    <None Include="resources\Moto_roja.jpeg" />
     <Content Include="resources\producto.png" />
     <Content Include="resources\reportes.png" />
     <Content Include="resources\venta.png" />
