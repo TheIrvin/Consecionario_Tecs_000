@@ -116,21 +116,21 @@
             this.tsbtnImprimirCompras});
             this.toolStrip2.Location = new System.Drawing.Point(0, 35);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(1067, 27);
+            this.toolStrip2.Size = new System.Drawing.Size(1067, 31);
             this.toolStrip2.TabIndex = 6;
             this.toolStrip2.Text = "toolStrip2";
             // 
             // ttlbFiltrarCompras
             // 
             this.ttlbFiltrarCompras.Name = "ttlbFiltrarCompras";
-            this.ttlbFiltrarCompras.Size = new System.Drawing.Size(50, 24);
+            this.ttlbFiltrarCompras.Size = new System.Drawing.Size(50, 28);
             this.ttlbFiltrarCompras.Text = "Filtrar:";
             // 
             // tstxtFiltrarCompras
             // 
             this.tstxtFiltrarCompras.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tstxtFiltrarCompras.Name = "tstxtFiltrarCompras";
-            this.tstxtFiltrarCompras.Size = new System.Drawing.Size(145, 27);
+            this.tstxtFiltrarCompras.Size = new System.Drawing.Size(145, 31);
             // 
             // tsbtnFiltrarCompras
             // 
@@ -138,31 +138,31 @@
             this.tsbtnFiltrarCompras.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnFiltrarCompras.Image")));
             this.tsbtnFiltrarCompras.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnFiltrarCompras.Name = "tsbtnFiltrarCompras";
-            this.tsbtnFiltrarCompras.Size = new System.Drawing.Size(29, 24);
+            this.tsbtnFiltrarCompras.Size = new System.Drawing.Size(29, 28);
             this.tsbtnFiltrarCompras.Text = "toolStripButton1";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
             // 
             // toolStripLabel2
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(71, 24);
+            this.toolStripLabel2.Size = new System.Drawing.Size(71, 28);
             this.toolStripLabel2.Text = "Acciones:";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 31);
             // 
             // tsbtnAgregarCompras
             // 
             this.tsbtnAgregarCompras.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnAgregarCompras.Image")));
             this.tsbtnAgregarCompras.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnAgregarCompras.Name = "tsbtnAgregarCompras";
-            this.tsbtnAgregarCompras.Size = new System.Drawing.Size(87, 24);
+            this.tsbtnAgregarCompras.Size = new System.Drawing.Size(87, 28);
             this.tsbtnAgregarCompras.Text = "Agregar";
             this.tsbtnAgregarCompras.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tsbtnAgregarCompras.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -170,42 +170,42 @@
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 31);
             // 
             // tsBtnModificarCompras
             // 
             this.tsBtnModificarCompras.Image = ((System.Drawing.Image)(resources.GetObject("tsBtnModificarCompras.Image")));
             this.tsBtnModificarCompras.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsBtnModificarCompras.Name = "tsBtnModificarCompras";
-            this.tsBtnModificarCompras.Size = new System.Drawing.Size(97, 24);
+            this.tsBtnModificarCompras.Size = new System.Drawing.Size(97, 28);
             this.tsBtnModificarCompras.Text = "Modificar";
             this.tsBtnModificarCompras.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 31);
             // 
             // tsbtnEliminarCompras
             // 
             this.tsbtnEliminarCompras.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnEliminarCompras.Image")));
             this.tsbtnEliminarCompras.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnEliminarCompras.Name = "tsbtnEliminarCompras";
-            this.tsbtnEliminarCompras.Size = new System.Drawing.Size(87, 24);
+            this.tsbtnEliminarCompras.Size = new System.Drawing.Size(87, 28);
             this.tsbtnEliminarCompras.Text = "Eliminar";
             this.tsbtnEliminarCompras.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 31);
             // 
             // tsbtnImprimirCompras
             // 
             this.tsbtnImprimirCompras.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnImprimirCompras.Image")));
             this.tsbtnImprimirCompras.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnImprimirCompras.Name = "tsbtnImprimirCompras";
-            this.tsbtnImprimirCompras.Size = new System.Drawing.Size(90, 24);
+            this.tsbtnImprimirCompras.Size = new System.Drawing.Size(90, 28);
             this.tsbtnImprimirCompras.Text = "Imprimir";
             this.tsbtnImprimirCompras.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 

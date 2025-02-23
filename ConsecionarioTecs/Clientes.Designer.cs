@@ -71,7 +71,7 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(7, 32);
             this.panel1.TabIndex = 4;
@@ -96,7 +96,7 @@
             this.panelContenedorClientes.Controls.Add(this.toolStrip1);
             this.panelContenedorClientes.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelContenedorClientes.Location = new System.Drawing.Point(0, 40);
-            this.panelContenedorClientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelContenedorClientes.Margin = new System.Windows.Forms.Padding(4);
             this.panelContenedorClientes.Name = "panelContenedorClientes";
             this.panelContenedorClientes.Size = new System.Drawing.Size(1067, 514);
             this.panelContenedorClientes.TabIndex = 5;
@@ -106,7 +106,7 @@
             this.dtgvContendorClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvContendorClientes.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dtgvContendorClientes.Location = new System.Drawing.Point(0, 31);
-            this.dtgvContendorClientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgvContendorClientes.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvContendorClientes.Name = "dtgvContendorClientes";
             this.dtgvContendorClientes.RowHeadersWidth = 51;
             this.dtgvContendorClientes.Size = new System.Drawing.Size(1067, 483);
@@ -138,14 +138,14 @@
             // ttlbFiltrar
             // 
             this.ttlbFiltrar.Name = "ttlbFiltrar";
-            this.ttlbFiltrar.Size = new System.Drawing.Size(50, 24);
+            this.ttlbFiltrar.Size = new System.Drawing.Size(50, 28);
             this.ttlbFiltrar.Text = "Filtrar:";
             // 
             // tstxtFiltrar
             // 
             this.tstxtFiltrar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tstxtFiltrar.Name = "tstxtFiltrar";
-            this.tstxtFiltrar.Size = new System.Drawing.Size(145, 27);
+            this.tstxtFiltrar.Size = new System.Drawing.Size(145, 31);
             // 
             // tsbtnFiltrar
             // 
@@ -159,25 +159,25 @@
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(71, 24);
+            this.toolStripLabel1.Size = new System.Drawing.Size(71, 28);
             this.toolStripLabel1.Text = "Acciones:";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 31);
             // 
             // tsbtnAgregarCliente
             // 
             this.tsbtnAgregarCliente.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnAgregarCliente.Image")));
             this.tsbtnAgregarCliente.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnAgregarCliente.Name = "tsbtnAgregarCliente";
-            this.tsbtnAgregarCliente.Size = new System.Drawing.Size(87, 24);
+            this.tsbtnAgregarCliente.Size = new System.Drawing.Size(87, 28);
             this.tsbtnAgregarCliente.Text = "Agregar";
             this.tsbtnAgregarCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tsbtnAgregarCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -186,42 +186,42 @@
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 31);
             // 
             // tsBtnModificarCliente
             // 
             this.tsBtnModificarCliente.Image = ((System.Drawing.Image)(resources.GetObject("tsBtnModificarCliente.Image")));
             this.tsBtnModificarCliente.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsBtnModificarCliente.Name = "tsBtnModificarCliente";
-            this.tsBtnModificarCliente.Size = new System.Drawing.Size(97, 24);
+            this.tsBtnModificarCliente.Size = new System.Drawing.Size(97, 28);
             this.tsBtnModificarCliente.Text = "Modificar";
             this.tsBtnModificarCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 31);
             // 
             // tsbtnEliminar
             // 
             this.tsbtnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnEliminar.Image")));
             this.tsbtnEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnEliminar.Name = "tsbtnEliminar";
-            this.tsbtnEliminar.Size = new System.Drawing.Size(87, 24);
+            this.tsbtnEliminar.Size = new System.Drawing.Size(87, 28);
             this.tsbtnEliminar.Text = "Eliminar";
             this.tsbtnEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 31);
             // 
             // tsbtnImprimir
             // 
             this.tsbtnImprimir.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnImprimir.Image")));
             this.tsbtnImprimir.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnImprimir.Name = "tsbtnImprimir";
-            this.tsbtnImprimir.Size = new System.Drawing.Size(90, 24);
+            this.tsbtnImprimir.Size = new System.Drawing.Size(90, 28);
             this.tsbtnImprimir.Text = "Imprimir";
             this.tsbtnImprimir.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
@@ -236,7 +236,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblEstadisticas1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Clientes";
             this.Text = "Clientes";
             this.Load += new System.EventHandler(this.Clientes_Load);
