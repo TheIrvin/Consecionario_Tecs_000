@@ -111,6 +111,7 @@
             this.dtgvContendorClientes.RowHeadersWidth = 51;
             this.dtgvContendorClientes.Size = new System.Drawing.Size(1067, 483);
             this.dtgvContendorClientes.TabIndex = 1;
+            this.dtgvContendorClientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvContendorClientes_CellContentClick);
             // 
             // toolStrip1
             // 

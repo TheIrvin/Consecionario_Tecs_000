@@ -40,5 +40,10 @@ namespace FormularioDeInicio
         {
 
         }
+
+        private void dtgvContendorClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
