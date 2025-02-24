@@ -79,8 +79,6 @@ namespace FormularioDeInicio
             modiAdmin.txtPais.Text = dtgvContenedorAdministradores[6, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
             modiAdmin.txtTelefono.Text = dtgvContenedorAdministradores[7, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
             modiAdmin.txtCargo.Text = dtgvContenedorAdministradores[8, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
-            modiAdmin.txtUsuario.Text = dtgvContenedorAdministradores[9, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
-            modiAdmin.txtContraseña.Text = dtgvContenedorAdministradores[10, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
             modiAdmin.txtID.Enabled = false; //puedo cambiar lo que sea, menos el código y por eso está en false
             modiAdmin.Show();
         }

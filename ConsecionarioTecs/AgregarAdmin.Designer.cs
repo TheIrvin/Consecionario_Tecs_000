@@ -48,21 +48,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblIDAgg = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblContacto = new System.Windows.Forms.Label();
             this.txtContacto = new System.Windows.Forms.TextBox();
             this.btnGuardarAdmin = new System.Windows.Forms.Button();
             this.btnCancelarAdmin = new System.Windows.Forms.Button();
@@ -71,9 +65,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.lblModificarAdmin = new System.Windows.Forms.Label();
@@ -112,7 +104,7 @@
             this.dtgvContenedorAggAdmin.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgvContenedorAggAdmin.Location = new System.Drawing.Point(0, 40);
             this.dtgvContenedorAggAdmin.Name = "dtgvContenedorAggAdmin";
-            this.dtgvContenedorAggAdmin.Size = new System.Drawing.Size(700, 460);
+            this.dtgvContenedorAggAdmin.Size = new System.Drawing.Size(700, 410);
             this.dtgvContenedorAggAdmin.TabIndex = 24;
             // 
             // btnCerrarApp
@@ -314,52 +306,6 @@
             this.lblIDAgg.TabIndex = 45;
             this.lblIDAgg.Text = "ID:";
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(26, 359);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(79, 22);
-            this.label8.TabIndex = 67;
-            this.label8.Text = "Usuario:";
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUsuario.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(139, 360);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtUsuario.MaxLength = 50;
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(171, 22);
-            this.txtUsuario.TabIndex = 10;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(378, 360);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(110, 22);
-            this.label9.TabIndex = 69;
-            this.label9.Text = "Contraseña:";
-            // 
-            // txtContraseña
-            // 
-            this.txtContraseña.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtContraseña.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseña.Location = new System.Drawing.Point(496, 363);
-            this.txtContraseña.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtContraseña.MaxLength = 50;
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(191, 22);
-            this.txtContraseña.TabIndex = 11;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.DeepSkyBlue;
@@ -401,14 +347,6 @@
             this.panel5.Size = new System.Drawing.Size(5, 26);
             this.panel5.TabIndex = 72;
             // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel6.Location = new System.Drawing.Point(366, 357);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(5, 26);
-            this.panel6.TabIndex = 72;
-            // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.DeepSkyBlue;
@@ -425,14 +363,6 @@
             this.panel8.Size = new System.Drawing.Size(5, 26);
             this.panel8.TabIndex = 72;
             // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel9.Location = new System.Drawing.Point(14, 362);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(5, 26);
-            this.panel9.TabIndex = 75;
-            // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.DeepSkyBlue;
@@ -441,16 +371,16 @@
             this.panel10.Size = new System.Drawing.Size(5, 26);
             this.panel10.TabIndex = 76;
             // 
-            // label10
+            // lblContacto
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(378, 200);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(90, 22);
-            this.label10.TabIndex = 77;
-            this.label10.Text = "Contacto:";
+            this.lblContacto.AutoSize = true;
+            this.lblContacto.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContacto.Location = new System.Drawing.Point(378, 200);
+            this.lblContacto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblContacto.Name = "lblContacto";
+            this.lblContacto.Size = new System.Drawing.Size(90, 22);
+            this.lblContacto.TabIndex = 77;
+            this.lblContacto.Text = "Contacto:";
             // 
             // txtContacto
             // 
@@ -470,7 +400,7 @@
             this.btnGuardarAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarAdmin.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarAdmin.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnGuardarAdmin.Location = new System.Drawing.Point(79, 426);
+            this.btnGuardarAdmin.Location = new System.Drawing.Point(83, 372);
             this.btnGuardarAdmin.Name = "btnGuardarAdmin";
             this.btnGuardarAdmin.Size = new System.Drawing.Size(214, 43);
             this.btnGuardarAdmin.TabIndex = 12;
@@ -484,7 +414,7 @@
             this.btnCancelarAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelarAdmin.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarAdmin.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnCancelarAdmin.Location = new System.Drawing.Point(406, 426);
+            this.btnCancelarAdmin.Location = new System.Drawing.Point(406, 372);
             this.btnCancelarAdmin.Name = "btnCancelarAdmin";
             this.btnCancelarAdmin.Size = new System.Drawing.Size(214, 43);
             this.btnCancelarAdmin.TabIndex = 13;
@@ -548,17 +478,6 @@
             this.label16.TabIndex = 85;
             this.label16.Text = "____________________________";
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(135, 370);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(175, 13);
-            this.label17.TabIndex = 86;
-            this.label17.Text = "____________________________";
-            // 
             // label18
             // 
             this.label18.AutoSize = true;
@@ -569,17 +488,6 @@
             this.label18.Size = new System.Drawing.Size(193, 13);
             this.label18.TabIndex = 87;
             this.label18.Text = "_______________________________";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(495, 375);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(193, 13);
-            this.label19.TabIndex = 88;
-            this.label19.Text = "_______________________________";
             // 
             // label20
             // 
@@ -619,12 +527,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(700, 500);
+            this.ClientSize = new System.Drawing.Size(700, 450);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
@@ -633,21 +539,15 @@
             this.Controls.Add(this.btnCancelarAdmin);
             this.Controls.Add(this.btnGuardarAdmin);
             this.Controls.Add(this.txtContacto);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.lblContacto);
             this.Controls.Add(this.panel10);
-            this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.txtContraseña);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.txtRegion);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.txtCargo);
@@ -696,21 +596,15 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblIDAgg;
-        private System.Windows.Forms.Label label8;
-        public System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.Label label9;
-        public System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblContacto;
         public System.Windows.Forms.TextBox txtContacto;
         private System.Windows.Forms.Button btnGuardarAdmin;
         private System.Windows.Forms.Button btnCancelarAdmin;
@@ -719,9 +613,7 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         public System.Windows.Forms.Label lblAggAdmin;

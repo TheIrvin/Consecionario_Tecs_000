@@ -28,19 +28,18 @@ namespace ConsecionarioTecs
             switch (tipo)
             {
                 case 1:
-                    cadena = "'" + txtID.Text + "','" + txtNombreAdmin.Text + "','" + txtDireccion.Text + "','" + txtCiudad.Text + "','" + txtContacto.Text + "','" + txtRegion.Text + "','" + txtPais.Text + "','" + txtTelefono.Text + "','" + txtCargo.Text + "','" + txtUsuario.Text + "','" + txtContraseña.Text + "'";
-                    conSQL.insertarDatos("Administradores", "AdministradorID,NombreAdmin,Direccion,Ciudad,Contacto,Region,Pais,Telefono,Cargo,Usuario,Contraseña", cadena);
+                    cadena = "'" + txtID.Text + "','" + txtNombreAdmin.Text + "','" + txtDireccion.Text + "','" + txtCiudad.Text + "','" + txtContacto.Text + "','" + txtRegion.Text + "','" + txtPais.Text + "','" + txtTelefono.Text + "','" + txtCargo.Text + "'";
+                    conSQL.insertarDatos("Administradores", "AdministradorID,NombreAdmin,Direccion,Ciudad,Contacto,Region,Pais,Telefono,Cargo", cadena);
                     break;
                 case 2:
                     cadena = "NombreAdmin='" + txtNombreAdmin.Text + "', Direccion='" + txtDireccion.Text +
                         "', Ciudad='" + txtCiudad.Text + "', Contacto='" + txtContacto.Text +
                         "', Region='" + txtCiudad.Text + "', Pais='" + txtPais.Text +
-                        "', Telefono='" + txtTelefono.Text + "', Cargo='" + txtCargo.Text +
-                        "', Usuario='" + txtTelefono.Text + "', Contraseña='" + txtContraseña.Text + "'";
-                    conSQL.actualizarDatos("Customers", cadena, "AdministradorID='" + txtID.Text + "'");
+                        "', Telefono='" + txtTelefono.Text + "', Cargo='" + txtCargo.Text + "'";
+                    conSQL.actualizarDatos("Administradores", cadena, "AdministradorID='" + txtID.Text + "'");
                     break;
             }
-            frmAdmin.dtgvContenedorAdministradores.DataSource = conSQL.retornaRegistros("Select * from Customers");
+            frmAdmin.dtgvContenedorAdministradores.DataSource = conSQL.retornaRegistros("Select * from Administradores");
             this.Close();
         }
 
