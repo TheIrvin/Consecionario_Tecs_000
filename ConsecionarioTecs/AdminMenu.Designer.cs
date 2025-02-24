@@ -409,6 +409,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel panelCabecera;
         private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.Panel PanelContenedor;
         private System.Windows.Forms.Button btnCerrarApp;
@@ -432,7 +434,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnMotos;
         private System.Windows.Forms.Button btnCerrarSesionAdmin;
-        public System.Windows.Forms.Panel panelCabecera;
     }
 }
 
