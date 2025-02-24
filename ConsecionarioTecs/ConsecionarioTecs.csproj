@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -51,6 +51,12 @@
     </Compile>
     <Compile Include="AdminMenu.Designer.cs">
       <DependentUpon>AdminMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarAdmin.Designer.cs">
+      <DependentUpon>AgregarAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="CatalogoCliente.cs">
       <SubType>Form</SubType>
@@ -109,11 +115,11 @@
     <Compile Include="SoporteClientes.Designer.cs">
       <DependentUpon>SoporteClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Usuarios.cs">
+    <Compile Include="Administradores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Usuarios.Designer.cs">
-      <DependentUpon>Usuarios.cs</DependentUpon>
+    <Compile Include="Administradores.Designer.cs">
+      <DependentUpon>Administradores.cs</DependentUpon>
     </Compile>
     <Compile Include="Ventas.cs">
       <SubType>Form</SubType>
@@ -129,6 +135,9 @@
     </Compile>
     <EmbeddedResource Include="AdminMenu.resx">
       <DependentUpon>AdminMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarAdmin.resx">
+      <DependentUpon>AgregarAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CatalogoCliente.resx">
       <DependentUpon>CatalogoCliente.cs</DependentUpon>
@@ -167,8 +176,8 @@
     <EmbeddedResource Include="SoporteClientes.resx">
       <DependentUpon>SoporteClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Usuarios.resx">
-      <DependentUpon>Usuarios.cs</DependentUpon>
+    <EmbeddedResource Include="Administradores.resx">
+      <DependentUpon>Administradores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>

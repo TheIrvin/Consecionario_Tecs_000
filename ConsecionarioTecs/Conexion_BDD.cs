@@ -24,10 +24,10 @@ namespace ConsecionarioTecs
 
             public Conexion_BDD()
             {
-                Server = "ALXJANDR07\\SQLEXPRESS";
-                Database = "MiCompañia";
-                Usuario = "adminAle";
-                Clave = "123456";
+                Server = "DESKTOP-9SMDLH8\\SQLEXPRESS";
+                Database = "CompañiaTecsBDD";
+                Usuario = "AccesoChari";
+                Clave = "accesochari";
             }
 
         public Conexion_BDD(string Server, string Database, string Usuario, string Clave)
@@ -83,6 +83,23 @@ namespace ConsecionarioTecs
             oCom = new SqlCommand(Cadena, oCon);
             oCom.ExecuteNonQuery();
             cerrarConexion();
+            return true;
+        }
+
+        public bool actualizarDatos(string Tabla, string Datos, string Condicion)
+        {
+            try
+            {
+                abrirConexion();
+                Cadena = "Update " + Tabla + " set " + Datos + " where " + Condicion;
+                oCom = new SqlCommand(Cadena, oCon);
+                oCom.ExecuteNonQuery();
+                cerrarConexion();
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
             return true;
         }
 
