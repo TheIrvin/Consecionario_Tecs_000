@@ -1,4 +1,4 @@
-﻿namespace FormularioDeInicio
+namespace FormularioDeInicio
 {
     partial class Clientes
     {
@@ -122,6 +122,132 @@
             this.tstBarraClientes.Name = "tstBarraClientes";
             this.tstBarraClientes.Size = new System.Drawing.Size(864, 25);
             this.tstBarraClientes.TabIndex = 4;
+            this.tstBarraClientes.Text = "toolStrip1";
+            // 
+            // toolStripLabel2
+            // 
+            this.toolStripLabel2.Name = "toolStripLabel2";
+            this.toolStripLabel2.Size = new System.Drawing.Size(40, 22);
+            this.toolStripLabel2.Text = "Filtrar";
+            // 
+            // toolStripTextBox1
+            // 
+            this.toolStripTextBox1.Name = "toolStripTextBox1";
+            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 25);
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(47, 22);
+            this.toolStripButton1.Text = "Buscar";
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripLabel3
+            // 
+            this.toolStripLabel3.Name = "toolStripLabel3";
+            this.toolStripLabel3.Size = new System.Drawing.Size(56, 22);
+            this.toolStripLabel3.Text = "Acciones:";
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
+            // 
+            // tstbtAgregarC
+            // 
+            this.tstbtAgregarC.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.tstbtAgregarC.Image = ((System.Drawing.Image)(resources.GetObject("tstbtAgregarC.Image")));
+            this.tstbtAgregarC.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tstbtAgregarC.Name = "tstbtAgregarC";
+            this.tstbtAgregarC.Size = new System.Drawing.Size(52, 22);
+            this.tstbtAgregarC.Text = "Agregar";
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
+            // 
+            // tstbtnModificarC
+            // 
+            this.tstbtnModificarC.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.tstbtnModificarC.Image = ((System.Drawing.Image)(resources.GetObject("tstbtnModificarC.Image")));
+            this.tstbtnModificarC.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tstbtnModificarC.Name = "tstbtnModificarC";
+            this.tstbtnModificarC.Size = new System.Drawing.Size(60, 22);
+            this.tstbtnModificarC.Text = "Modificar";
+            // 
+            // toolStripSeparator9
+            // 
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 25);
+            // 
+            // tstbtnEliminar
+            // 
+            this.tstbtnEliminar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.tstbtnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("tstbtnEliminar.Image")));
+            this.tstbtnEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tstbtnEliminar.Name = "tstbtnEliminar";
+            this.tstbtnEliminar.Size = new System.Drawing.Size(56, 22);
+            this.tstbtnEliminar.Text = "Eliminar";
+            // 
+            // toolStripSeparator10
+            // 
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton5
+            // 
+            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
+            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton5.Name = "toolStripButton5";
+            this.toolStripButton5.Size = new System.Drawing.Size(46, 22);
+            this.toolStripButton5.Text = "Salir";
+            // 
+            // FrmClientes
+            // 
+            this.ClientSize = new System.Drawing.Size(864, 501);
+            this.Controls.Add(this.panelContendorClientes);
+            this.Controls.Add(this.panelcabeceraClientes);
+            this.Name = "FrmClientes";
+            this.Text = "Gestión de Clientes";
+            this.panelcabeceraClientes.ResumeLayout(false);
+            this.panelcabeceraClientes.PerformLayout();
+            this.panelContendorClientes.ResumeLayout(false);
+            this.panelContendorClientes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvContendorClientes)).EndInit();
+            this.tstBarraClientes.ResumeLayout(false);
+            this.tstBarraClientes.PerformLayout();
+            this.ResumeLayout(false);
+
+            // 
+            // tstBarraClientes
+            // 
+            this.tstBarraClientes.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripLabel2,
+            this.toolStripTextBox1,
+            this.toolStripButton1,
+            this.toolStripSeparator6,
+            this.toolStripLabel3,
+            this.toolStripSeparator7,
+            this.tstbtAgregarC,
+            this.toolStripSeparator8,
+            this.tstbtnModificarC,
+            this.toolStripSeparator9,
+            this.tstbtnEliminar,
+            this.toolStripSeparator10,
+            this.toolStripButton5});
+            this.tstBarraClientes.Location = new System.Drawing.Point(0, 0);
+            this.tstBarraClientes.Name = "tstBarraClientes";
+            this.tstBarraClientes.Size = new System.Drawing.Size(864, 25);
+            this.tstBarraClientes.TabIndex = 4;
             this.tstBarraClientes.Text = "Menu";
             // 
             // toolStripLabel2
@@ -216,6 +342,26 @@
             this.toolStripButton5.Text = "Imprimir";
             this.toolStripButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
+            // dtgvContendorClientes
+            // 
+            this.dtgvContendorClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvContendorClientes.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dtgvContendorClientes.Location = new System.Drawing.Point(0, 28);
+            this.dtgvContendorClientes.Name = "dtgvContendorClientes";
+            this.dtgvContendorClientes.Size = new System.Drawing.Size(800, 390);
+            this.dtgvContendorClientes.TabIndex = 1;
+            // 
+            // panelContenedorClientes
+            // 
+            this.panelContenedorClientes.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panelContenedorClientes.Controls.Add(this.dtgvContendorClientes);
+            this.panelContenedorClientes.Controls.Add(this.toolStrip1);
+            this.panelContenedorClientes.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelContenedorClientes.Location = new System.Drawing.Point(0, 32);
+            this.panelContenedorClientes.Name = "panelContenedorClientes";
+            this.panelContenedorClientes.Size = new System.Drawing.Size(800, 418);
+            this.panelContenedorClientes.TabIndex = 5;
+            // 
             // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -228,6 +374,7 @@
             this.Name = "Clientes";
             this.Text = "Clientes";
             this.Load += new System.EventHandler(this.Clientes_Load);
+            
             this.panelcabeceraClientes.ResumeLayout(false);
             this.panelcabeceraClientes.PerformLayout();
             this.panelContendorClientes.ResumeLayout(false);
@@ -260,5 +407,25 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.DataGridView dtgvContendorClientes;
+        private System.Windows.Forms.Label lblClientes;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblxClientes;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripLabel ttlbFiltrar;
+        private System.Windows.Forms.ToolStripTextBox tstxtFiltrar;
+        private System.Windows.Forms.ToolStripButton tsbtnFiltrar;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripButton tsbtnAgregarCliente;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripButton tsBtnModificarCliente;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripButton tsbtnEliminar;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripButton tsbtnImprimir;
+        private System.Windows.Forms.DataGridView dtgvContendorClientes;
+        private System.Windows.Forms.Panel panelContenedorClientes;
+
     }
 }
