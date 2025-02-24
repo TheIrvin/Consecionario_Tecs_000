@@ -38,16 +38,16 @@
             this.tsAdministradores = new System.Windows.Forms.ToolStrip();
             this.ttlbFiltrarAdmin = new System.Windows.Forms.ToolStripLabel();
             this.tstxtFiltrarAdmin = new System.Windows.Forms.ToolStripTextBox();
-            this.tsbtnFiltrarAdmin = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbtnAgregarAdmin = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsBtnModificarAdmin = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbtnEliminarAdmin = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsbtnFiltrarAdmin = new System.Windows.Forms.ToolStripButton();
+            this.tsbtnAgregarAdmin = new System.Windows.Forms.ToolStripButton();
+            this.tsBtnModificarAdmin = new System.Windows.Forms.ToolStripButton();
+            this.tsbtnEliminarAdmin = new System.Windows.Forms.ToolStripButton();
             this.tsbtnImprimirAdmin = new System.Windows.Forms.ToolStripButton();
             this.panelAdmin.SuspendLayout();
             this.panelContenedorAdministradores.SuspendLayout();
@@ -152,16 +152,6 @@
             this.tstxtFiltrarAdmin.Size = new System.Drawing.Size(110, 25);
             this.tstxtFiltrarAdmin.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tstxtFiltrarAdmin_KeyUp);
             // 
-            // tsbtnFiltrarAdmin
-            // 
-            this.tsbtnFiltrarAdmin.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbtnFiltrarAdmin.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnFiltrarAdmin.Image")));
-            this.tsbtnFiltrarAdmin.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnFiltrarAdmin.Name = "tsbtnFiltrarAdmin";
-            this.tsbtnFiltrarAdmin.Size = new System.Drawing.Size(23, 22);
-            this.tsbtnFiltrarAdmin.Text = "toolStripButton1";
-            this.tsbtnFiltrarAdmin.Click += new System.EventHandler(this.tsbtnFiltrarAdmin_Click);
-            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
@@ -178,6 +168,31 @@
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
+            // 
+            // tsbtnFiltrarAdmin
+            // 
+            this.tsbtnFiltrarAdmin.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbtnFiltrarAdmin.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnFiltrarAdmin.Image")));
+            this.tsbtnFiltrarAdmin.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbtnFiltrarAdmin.Name = "tsbtnFiltrarAdmin";
+            this.tsbtnFiltrarAdmin.Size = new System.Drawing.Size(23, 22);
+            this.tsbtnFiltrarAdmin.Text = "toolStripButton1";
+            this.tsbtnFiltrarAdmin.Click += new System.EventHandler(this.tsbtnFiltrarAdmin_Click);
+            // 
             // tsbtnAgregarAdmin
             // 
             this.tsbtnAgregarAdmin.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnAgregarAdmin.Image")));
@@ -189,11 +204,6 @@
             this.tsbtnAgregarAdmin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.tsbtnAgregarAdmin.Click += new System.EventHandler(this.tsbtnAgregarAdmin_Click);
             // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
-            // 
             // tsBtnModificarAdmin
             // 
             this.tsBtnModificarAdmin.Image = ((System.Drawing.Image)(resources.GetObject("tsBtnModificarAdmin.Image")));
@@ -202,11 +212,7 @@
             this.tsBtnModificarAdmin.Size = new System.Drawing.Size(78, 22);
             this.tsBtnModificarAdmin.Text = "Modificar";
             this.tsBtnModificarAdmin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            this.tsBtnModificarAdmin.Click += new System.EventHandler(this.tsBtnModificarAdmin_Click);
             // 
             // tsbtnEliminarAdmin
             // 
@@ -217,11 +223,6 @@
             this.tsbtnEliminarAdmin.Text = "Eliminar";
             this.tsbtnEliminarAdmin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.tsbtnEliminarAdmin.Click += new System.EventHandler(this.tsbtnEliminarAdmin_Click);
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
             // 
             // tsbtnImprimirAdmin
             // 
@@ -240,6 +241,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panelContenedorAdministradores);
             this.Controls.Add(this.panelAdmin);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Administradores";
             this.Text = "Administradores";
             this.Load += new System.EventHandler(this.Administradores_Load);
@@ -275,6 +277,6 @@
         private System.Windows.Forms.ToolStripButton tsbtnEliminarAdmin;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripButton tsbtnImprimirAdmin;
-        private System.Windows.Forms.DataGridView dtgvContenedorAdministradores;
+        public System.Windows.Forms.DataGridView dtgvContenedorAdministradores;
     }
 }

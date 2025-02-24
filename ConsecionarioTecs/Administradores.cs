@@ -57,10 +57,32 @@ namespace FormularioDeInicio
 
         private void tsbtnAgregarAdmin_Click(object sender, EventArgs e)
         {
-            AgregarAdmin nuevoAdmin = new AgregarAdmin();
+            AgregarAdmin nuevoAdmin = new AgregarAdmin(1);
+            nuevoAdmin.lblAggAdmin.Visible = true;
+            nuevoAdmin.lblModificarAdmin.Visible = false;
             this.AddOwnedForm(nuevoAdmin);
             nuevoAdmin.Show();
         }
 
+        private void tsBtnModificarAdmin_Click(object sender, EventArgs e)
+        {
+            AgregarAdmin modiAdmin = new AgregarAdmin(2);
+            this.AddOwnedForm(modiAdmin);
+            modiAdmin.lblAggAdmin.Visible = false;
+            modiAdmin.lblModificarAdmin.Visible = true;
+            modiAdmin.txtID.Text = dtgvContenedorAdministradores[0, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
+            modiAdmin.txtNombreAdmin.Text = dtgvContenedorAdministradores[1, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
+            modiAdmin.txtDireccion.Text = dtgvContenedorAdministradores[2, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
+            modiAdmin.txtCiudad.Text = dtgvContenedorAdministradores[3, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
+            modiAdmin.txtContacto.Text = dtgvContenedorAdministradores[4, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
+            modiAdmin.txtRegion.Text = dtgvContenedorAdministradores[5, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
+            modiAdmin.txtPais.Text = dtgvContenedorAdministradores[6, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
+            modiAdmin.txtTelefono.Text = dtgvContenedorAdministradores[7, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
+            modiAdmin.txtCargo.Text = dtgvContenedorAdministradores[8, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
+            modiAdmin.txtUsuario.Text = dtgvContenedorAdministradores[9, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
+            modiAdmin.txtContraseña.Text = dtgvContenedorAdministradores[10, dtgvContenedorAdministradores.CurrentRow.Index].Value.ToString();
+            modiAdmin.txtID.Enabled = false; //puedo cambiar lo que sea, menos el código y por eso está en false
+            modiAdmin.Show();
+        }
     }
 }
