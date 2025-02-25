@@ -29,11 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Clientes));
-            this.lblEstadisticas1 = new System.Windows.Forms.Label();
+            this.lblClientes = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblxEst = new System.Windows.Forms.Label();
-            this.panelContenedorClientes = new System.Windows.Forms.Panel();
-            this.dtgvContendorClientes = new System.Windows.Forms.DataGridView();
+            this.lblxClientes = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.ttlbFiltrar = new System.Windows.Forms.ToolStripLabel();
             this.tstxtFiltrar = new System.Windows.Forms.ToolStripTextBox();
@@ -48,12 +46,14 @@
             this.tsbtnEliminar = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbtnImprimir = new System.Windows.Forms.ToolStripButton();
-            this.panelContenedorClientes.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvContendorClientes)).BeginInit();
+            this.dtgvContendorClientes = new System.Windows.Forms.DataGridView();
+            this.panelContenedorClientes = new System.Windows.Forms.Panel();
             this.toolStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvContendorClientes)).BeginInit();
+            this.panelContenedorClientes.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblEstadisticas1
+            // lblClientes
             // 
             this.lblEstadisticas1.AutoSize = true;
             this.lblEstadisticas1.BackColor = System.Drawing.Color.Transparent;
@@ -66,6 +66,16 @@
             this.lblEstadisticas1.Text = "CLIENTES";
             this.lblEstadisticas1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lblEstadisticas1.Click += new System.EventHandler(this.lblEstadisticas1_Click);
+
+            this.lblClientes.AutoSize = true;
+            this.lblClientes.BackColor = System.Drawing.Color.Transparent;
+            this.lblClientes.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClientes.Location = new System.Drawing.Point(8, 0);
+            this.lblClientes.Name = "lblClientes";
+            this.lblClientes.Size = new System.Drawing.Size(124, 26);
+            this.lblClientes.TabIndex = 2;
+            this.lblClientes.Text = "CLIENTES";
+            this.lblClientes.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // panel1
             // 
@@ -112,6 +122,17 @@
             this.dtgvContendorClientes.Size = new System.Drawing.Size(1067, 483);
             this.dtgvContendorClientes.TabIndex = 1;
             this.dtgvContendorClientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvContendorClientes_CellContentClick);
+
+            // lblxClientes
+            // 
+            this.lblxClientes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblxClientes.AutoSize = true;
+            this.lblxClientes.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblxClientes.Location = new System.Drawing.Point(770, 0);
+            this.lblxClientes.Name = "lblxClientes";
+            this.lblxClientes.Size = new System.Drawing.Size(27, 26);
+            this.lblxClientes.TabIndex = 3;
+            this.lblxClientes.Text = "X";
             // 
             // toolStrip1
             // 
@@ -226,6 +247,26 @@
             this.tsbtnImprimir.Text = "Imprimir";
             this.tsbtnImprimir.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
+            // dtgvContendorClientes
+            // 
+            this.dtgvContendorClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvContendorClientes.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dtgvContendorClientes.Location = new System.Drawing.Point(0, 28);
+            this.dtgvContendorClientes.Name = "dtgvContendorClientes";
+            this.dtgvContendorClientes.Size = new System.Drawing.Size(800, 390);
+            this.dtgvContendorClientes.TabIndex = 1;
+            // 
+            // panelContenedorClientes
+            // 
+            this.panelContenedorClientes.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panelContenedorClientes.Controls.Add(this.dtgvContendorClientes);
+            this.panelContenedorClientes.Controls.Add(this.toolStrip1);
+            this.panelContenedorClientes.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelContenedorClientes.Location = new System.Drawing.Point(0, 32);
+            this.panelContenedorClientes.Name = "panelContenedorClientes";
+            this.panelContenedorClientes.Size = new System.Drawing.Size(800, 418);
+            this.panelContenedorClientes.TabIndex = 5;
+            // 
             // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -233,29 +274,28 @@
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panelContenedorClientes);
-            this.Controls.Add(this.lblxEst);
+            this.Controls.Add(this.lblxClientes);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.lblEstadisticas1);
+            this.Controls.Add(this.lblClientes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Clientes";
             this.Text = "Clientes";
             this.Load += new System.EventHandler(this.Clientes_Load);
-            this.panelContenedorClientes.ResumeLayout(false);
-            this.panelContenedorClientes.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvContendorClientes)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvContendorClientes)).EndInit();
+            this.panelContenedorClientes.ResumeLayout(false);
+            this.panelContenedorClientes.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label lblEstadisticas1;
+        private System.Windows.Forms.Label lblClientes;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblxEst;
-        private System.Windows.Forms.Panel panelContenedorClientes;
+        private System.Windows.Forms.Label lblxClientes;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripLabel ttlbFiltrar;
         private System.Windows.Forms.ToolStripTextBox tstxtFiltrar;
@@ -271,5 +311,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripButton tsbtnImprimir;
         private System.Windows.Forms.DataGridView dtgvContendorClientes;
+        private System.Windows.Forms.Panel panelContenedorClientes;
     }
 }

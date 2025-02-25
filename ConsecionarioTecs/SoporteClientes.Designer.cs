@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SoporteClientes));
             this.lblxSoporteClientes = new System.Windows.Forms.Label();
             this.lblSoporteClientes = new System.Windows.Forms.Label();
             this.panaleta2 = new System.Windows.Forms.Panel();
@@ -41,14 +42,17 @@
             this.panaleta2.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+
             this.SuspendLayout();
             // 
             // lblxSoporteClientes
             // 
+            this.lblxSoporteClientes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblxSoporteClientes.AutoSize = true;
             this.lblxSoporteClientes.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblxSoporteClientes.Location = new System.Drawing.Point(1028, 0);
             this.lblxSoporteClientes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+
             this.lblxSoporteClientes.Name = "lblxSoporteClientes";
             this.lblxSoporteClientes.Size = new System.Drawing.Size(35, 34);
             this.lblxSoporteClientes.TabIndex = 4;
@@ -57,18 +61,18 @@
             // 
             // lblSoporteClientes
             // 
-            this.lblSoporteClientes.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblSoporteClientes.AutoSize = true;
             this.lblSoporteClientes.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSoporteClientes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblSoporteClientes.Location = new System.Drawing.Point(15, 0);
             this.lblSoporteClientes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+
             this.lblSoporteClientes.Name = "lblSoporteClientes";
             this.lblSoporteClientes.Size = new System.Drawing.Size(151, 34);
             this.lblSoporteClientes.TabIndex = 3;
             this.lblSoporteClientes.Text = "SOPORTE";
             // 
-            // panaleta2
+
             // 
             this.panaleta2.BackColor = System.Drawing.SystemColors.ControlText;
             this.panaleta2.Controls.Add(this.panel1);
@@ -165,6 +169,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panaleta2);
+
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Soporte";
@@ -173,8 +178,8 @@
             this.panaleta2.PerformLayout();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -190,5 +195,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
+
     }
 }

@@ -106,7 +106,7 @@ namespace FormularioDeInicio
 
         private void button5_Click(object sender, EventArgs e)
         {
-            AbrirEnPanel(new Usuarios());
+            AbrirEnPanel(new Administradores());
         }
 
         private void button4_Click(object sender, EventArgs e)

@@ -14,21 +14,11 @@ namespace FormularioDeInicio
     public partial class Clientes : Form
     {
         Conexion_BDD conSQL = new Conexion_BDD();
-        int bandera = 0;
-        int clientexPag = 40;
+        //int bandera = 0;
+        //int clientexPag = 40;
         public Clientes()
         {
             InitializeComponent();
-        }
-
-        private void lblEstadisticas1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblxEst_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void Clientes_Load(object sender, EventArgs e)
