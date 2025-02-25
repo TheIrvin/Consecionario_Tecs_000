@@ -106,7 +106,7 @@ namespace FormularioDeInicio
 
         private void button5_Click(object sender, EventArgs e)
         {
-            AbrirEnPanel(new Clientes());
+           // AbrirEnPanel(new Clientes());
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -116,7 +116,7 @@ namespace FormularioDeInicio
 
         private void button3_Click(object sender, EventArgs e)
         {
-            AbrirEnPanel(new Clientes());
+            //AbrirEnPanel(new Clientes());
         }
 
         private void button2_Click(object sender, EventArgs e)
