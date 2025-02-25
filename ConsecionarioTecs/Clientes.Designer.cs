@@ -45,7 +45,7 @@
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.tstbtnModificarC = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
-            this.tstbtnEliminar = new System.Windows.Forms.ToolStripButton();
+            this.tstbtnEliminaar = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.panelcabeceraClientes.SuspendLayout();
@@ -115,7 +115,7 @@
             this.toolStripSeparator8,
             this.tstbtnModificarC,
             this.toolStripSeparator9,
-            this.tstbtnEliminar,
+            this.tstbtnEliminaar,
             this.toolStripSeparator10,
             this.toolStripButton5});
             this.tstBarraClientes.Location = new System.Drawing.Point(0, 0);
@@ -192,15 +192,15 @@
             this.toolStripSeparator9.Name = "toolStripSeparator9";
             this.toolStripSeparator9.Size = new System.Drawing.Size(6, 25);
             // 
-            // tstbtnEliminar
+            // tstbtnEliminaar
             // 
-            this.tstbtnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("tstbtnEliminar.Image")));
-            this.tstbtnEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tstbtnEliminar.Name = "tstbtnEliminar";
-            this.tstbtnEliminar.Size = new System.Drawing.Size(70, 22);
-            this.tstbtnEliminar.Text = "Eliminar";
-            this.tstbtnEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.tstbtnEliminar.Click += new System.EventHandler(this.tstbtnEliminar_Click);
+            this.tstbtnEliminaar.Image = ((System.Drawing.Image)(resources.GetObject("tstbtnEliminaar.Image")));
+            this.tstbtnEliminaar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tstbtnEliminaar.Name = "tstbtnEliminaar";
+            this.tstbtnEliminaar.Size = new System.Drawing.Size(70, 22);
+            this.tstbtnEliminaar.Text = "Eliminar";
+            this.tstbtnEliminaar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.tstbtnEliminaar.Click += new System.EventHandler(this.tstbtnEliminar_Click);
             // 
             // toolStripSeparator10
             // 
@@ -254,7 +254,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
         private System.Windows.Forms.ToolStripButton tstbtnModificarC;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
-        private System.Windows.Forms.ToolStripButton tstbtnEliminar;
+        private System.Windows.Forms.ToolStripButton tstbtnEliminaar;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
         private System.Windows.Forms.ToolStripButton toolStripButton5;
         private System.Windows.Forms.Panel panel1;
