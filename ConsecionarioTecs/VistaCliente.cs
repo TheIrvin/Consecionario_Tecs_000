@@ -101,7 +101,7 @@ namespace FormularioDeInicio
 
         private void btnSoporteCliente_Click(object sender, EventArgs e)
         {
-            AbrirEnPanelCliente(new SoporteClientes());
+            AbrirEnPanelCliente(new Soporte());
         }
 
         private void AbrirEnPanelCliente(Form formClientes)

@@ -8,21 +8,26 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FormularioDeInicio
+namespace ConsecionarioTecs
 {
-    public partial class Soporte : Form
+    public partial class AgregarCompras: Form
     {
-        public Soporte()
+        public AgregarCompras()
         {
             InitializeComponent();
         }
 
-        private void lblxSoporteClientes_Click(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void panaleta_Paint(object sender, PaintEventArgs e)
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

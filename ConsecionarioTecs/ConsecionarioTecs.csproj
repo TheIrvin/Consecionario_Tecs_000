@@ -52,6 +52,12 @@
     <Compile Include="AdminMenu.Designer.cs">
       <DependentUpon>AdminMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="AgregarCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarCompras.Designer.cs">
+      <DependentUpon>AgregarCompras.cs</DependentUpon>
+
     <Compile Include="AgregarAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,11 @@
       <DependentUpon>ComprasClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Conexion_BDD.cs" />
+    <Compile Include="dsCompañiaTecsBDD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCompañiaTecsBDD.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Estadisticas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +147,9 @@
     <EmbeddedResource Include="AdminMenu.resx">
       <DependentUpon>AdminMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AgregarCompras.resx">
+      <DependentUpon>AgregarCompras.cs</DependentUpon>
+
     <EmbeddedResource Include="AgregarAdmin.resx">
       <DependentUpon>AgregarAdmin.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +165,7 @@
     <EmbeddedResource Include="ComprasClientes.resx">
       <DependentUpon>ComprasClientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Estadisticas.rdlc" />
     <EmbeddedResource Include="Estadisticas.resx">
       <DependentUpon>Estadisticas.cs</DependentUpon>
     </EmbeddedResource>
@@ -185,6 +200,17 @@
     <EmbeddedResource Include="VistaCliente.resx">
       <DependentUpon>VistaCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="dsCompañiaTecsBDD.xsc">
+      <DependentUpon>dsCompañiaTecsBDD.xsd</DependentUpon>
+    </None>
+    <None Include="dsCompañiaTecsBDD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCompañiaTecsBDD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsCompañiaTecsBDD.xss">
+      <DependentUpon>dsCompañiaTecsBDD.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

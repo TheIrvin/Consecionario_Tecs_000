@@ -25,5 +25,15 @@ namespace FormularioDeInicio
         {
             dtgvContendorClientes.DataSource = conSQL.retornaRegistros("Select * from Clientes");
         }
+
+        private void tsbtnAgregarCliente_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtgvContendorClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
