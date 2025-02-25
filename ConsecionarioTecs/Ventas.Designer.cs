@@ -245,6 +245,7 @@
             this.tsVentas.ResumeLayout(false);
             this.tsVentas.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvContenedorVentas)).EndInit();
+
             this.ResumeLayout(false);
 
         }

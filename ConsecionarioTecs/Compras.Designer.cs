@@ -55,6 +55,7 @@
             this.panel2.SuspendLayout();
             this.toolStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvContendorCompras)).BeginInit();
+
             this.SuspendLayout();
             // 
             // lblxEst
@@ -243,6 +244,14 @@
             this.dtgvContendorCompras.TabIndex = 10;
             this.dtgvContendorCompras.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvContendorCompras_CellContentClick);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(14, 40);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(784, 69);
+            this.dataGridView1.TabIndex = 4;
+            // 
             // Compras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -264,6 +273,7 @@
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvContendorCompras)).EndInit();
+
             this.ResumeLayout(false);
 
         }
@@ -291,5 +301,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripButton tsbtnImprimirComprasProvedores;
         private System.Windows.Forms.DataGridView dtgvContendorCompras;
+
     }
 }
