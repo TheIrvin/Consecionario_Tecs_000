@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -52,18 +52,6 @@
     <Compile Include="AdminMenu.Designer.cs">
       <DependentUpon>AdminMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="AgregarCompras.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AgregarCompras.Designer.cs">
-      <DependentUpon>AgregarCompras.cs</DependentUpon>
-
-    <Compile Include="AgregarAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AgregarAdmin.Designer.cs">
-      <DependentUpon>AgregarAdmin.cs</DependentUpon>
-    </Compile>
     <Compile Include="CatalogoCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,11 +77,6 @@
       <DependentUpon>ComprasClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Conexion_BDD.cs" />
-    <Compile Include="dsCompañiaTecsBDD.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>dsCompañiaTecsBDD.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Estadisticas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,11 +109,11 @@
     <Compile Include="SoporteClientes.Designer.cs">
       <DependentUpon>SoporteClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administradores.cs">
+    <Compile Include="Usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administradores.Designer.cs">
-      <DependentUpon>Administradores.cs</DependentUpon>
+    <Compile Include="Usuarios.Designer.cs">
+      <DependentUpon>Usuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Ventas.cs">
       <SubType>Form</SubType>
@@ -147,12 +130,6 @@
     <EmbeddedResource Include="AdminMenu.resx">
       <DependentUpon>AdminMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AgregarCompras.resx">
-      <DependentUpon>AgregarCompras.cs</DependentUpon>
-
-    <EmbeddedResource Include="AgregarAdmin.resx">
-      <DependentUpon>AgregarAdmin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CatalogoCliente.resx">
       <DependentUpon>CatalogoCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,7 +142,6 @@
     <EmbeddedResource Include="ComprasClientes.resx">
       <DependentUpon>ComprasClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Estadisticas.rdlc" />
     <EmbeddedResource Include="Estadisticas.resx">
       <DependentUpon>Estadisticas.cs</DependentUpon>
     </EmbeddedResource>
@@ -191,8 +167,8 @@
     <EmbeddedResource Include="SoporteClientes.resx">
       <DependentUpon>SoporteClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administradores.resx">
-      <DependentUpon>Administradores.cs</DependentUpon>
+    <EmbeddedResource Include="Usuarios.resx">
+      <DependentUpon>Usuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>
@@ -200,17 +176,6 @@
     <EmbeddedResource Include="VistaCliente.resx">
       <DependentUpon>VistaCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="dsCompañiaTecsBDD.xsc">
-      <DependentUpon>dsCompañiaTecsBDD.xsd</DependentUpon>
-    </None>
-    <None Include="dsCompañiaTecsBDD.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>dsCompañiaTecsBDD.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="dsCompañiaTecsBDD.xss">
-      <DependentUpon>dsCompañiaTecsBDD.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -258,8 +223,6 @@
     <Content Include="resources\Mobile-Menu-Icon.png" />
     <Content Include="resources\Mobile-Menu-Icon1.png" />
     <Content Include="resources\MotoProductos-removebg-preview.png" />
-    <None Include="resources\ojo.png" />
-    <None Include="resources\ojo %281%29.png" />
     <None Include="resources\Moto_roja.jpeg" />
     <Content Include="resources\producto.png" />
     <Content Include="resources\reportes.png" />
