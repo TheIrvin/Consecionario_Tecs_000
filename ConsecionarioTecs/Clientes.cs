@@ -33,7 +33,7 @@ namespace FormularioDeInicio
 
         private void Clientes_Load(object sender, EventArgs e)
         {
-            dtgvContendorClientes.DataSource = conSQL.retornaRegistros("Select * from Clientes");
+            dtgvContenedorClientes.DataSource = conSQL.retornaRegistros("Select * from Clientes");
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -60,20 +60,20 @@ namespace FormularioDeInicio
             frmC.txtIDc.Visible = true;
             frmC.lblModificarCliente.Visible = true;
             frmC.lblID.Visible = true;
-            frmC.txtIDc.Text = dtgvContendorClientes[0, dtgvContendorClientes.CurrentRow.Index].Value.ToString();
+            frmC.txtIDc.Text = dtgvContenedorClientes[0, dtgvContenedorClientes.CurrentRow.Index].Value.ToString();
             
             frmC.Show();
         }
 
         private void tstbtnEliminar_Click(object sender, EventArgs e)
         {
-            if (dtgvContendorClientes.RowCount > 0)
+            if (dtgvContenedorClientes.RowCount > 0)
             {
-                DialogResult opc = MessageBox.Show(this, "Se eliminará la fila " + dtgvContendorClientes.CurrentRow.Index + ", que pertenece al cliente " + dtgvContendorClientes[0, dtgvContendorClientes.CurrentRow.Index].Value.ToString(), "Confirmación de Borrado", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                DialogResult opc = MessageBox.Show(this, "Se eliminará la fila " + dtgvContenedorClientes.CurrentRow.Index + ", que pertenece al cliente " + dtgvContenedorClientes[0, dtgvContenedorClientes.CurrentRow.Index].Value.ToString(), "Confirmación de Borrado", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (opc == DialogResult.Yes)
                 {
-                    conSQL.eliminarDatos("Clientes", "{Cliente ID]='" + dtgvContendorClientes[0, dtgvContendorClientes.CurrentRow.Index].Value.ToString() + "'");
-                    dtgvContendorClientes.DataSource = conSQL.retornaRegistros("Select * from Clientes");
+                    conSQL.eliminarDatos("Clientes", "{Cliente ID]='" + dtgvContenedorClientes[0, dtgvContenedorClientes.CurrentRow.Index].Value.ToString() + "'");
+                    dtgvContenedorClientes.DataSource = conSQL.retornaRegistros("Select * from Clientes");
                 }
             }
         }

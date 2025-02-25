@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Clientes));
             this.panelcabeceraClientes = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panelContendorClientes = new System.Windows.Forms.Panel();
-            this.dtgvContendorClientes = new System.Windows.Forms.DataGridView();
+            this.panelcabecera = new System.Windows.Forms.Panel();
+            this.panelContenedorClientes = new System.Windows.Forms.Panel();
+            this.dtgvContenedorClientes = new System.Windows.Forms.DataGridView();
             this.tstBarraClientes = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
@@ -45,12 +45,12 @@
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.tstbtnModificarC = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
-            this.tstbtnEliminaar = new System.Windows.Forms.ToolStripButton();
+            this.tstbtnEliminar = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.panelcabeceraClientes.SuspendLayout();
-            this.panelContendorClientes.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvContendorClientes)).BeginInit();
+            this.panelContenedorClientes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvContenedorClientes)).BeginInit();
             this.tstBarraClientes.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,7 +58,7 @@
             // 
             this.panelcabeceraClientes.BackColor = System.Drawing.SystemColors.ControlDark;
             this.panelcabeceraClientes.Controls.Add(this.label1);
-            this.panelcabeceraClientes.Controls.Add(this.panel1);
+            this.panelcabeceraClientes.Controls.Add(this.panelcabecera);
             this.panelcabeceraClientes.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelcabeceraClientes.Location = new System.Drawing.Point(0, 0);
             this.panelcabeceraClientes.Name = "panelcabeceraClientes";
@@ -75,32 +75,32 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "CLIENTES";
             // 
-            // panel1
+            // panelcabecera
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(5, 32);
-            this.panel1.TabIndex = 0;
+            this.panelcabecera.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panelcabecera.Location = new System.Drawing.Point(0, 0);
+            this.panelcabecera.Name = "panelcabecera";
+            this.panelcabecera.Size = new System.Drawing.Size(5, 32);
+            this.panelcabecera.TabIndex = 0;
             // 
-            // panelContendorClientes
+            // panelContenedorClientes
             // 
-            this.panelContendorClientes.Controls.Add(this.dtgvContendorClientes);
-            this.panelContendorClientes.Controls.Add(this.tstBarraClientes);
-            this.panelContendorClientes.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContendorClientes.Location = new System.Drawing.Point(0, 34);
-            this.panelContendorClientes.Name = "panelContendorClientes";
-            this.panelContendorClientes.Size = new System.Drawing.Size(864, 467);
-            this.panelContendorClientes.TabIndex = 1;
+            this.panelContenedorClientes.Controls.Add(this.dtgvContenedorClientes);
+            this.panelContenedorClientes.Controls.Add(this.tstBarraClientes);
+            this.panelContenedorClientes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContenedorClientes.Location = new System.Drawing.Point(0, 34);
+            this.panelContenedorClientes.Name = "panelContenedorClientes";
+            this.panelContenedorClientes.Size = new System.Drawing.Size(864, 467);
+            this.panelContenedorClientes.TabIndex = 1;
             // 
-            // dtgvContendorClientes
+            // dtgvContenedorClientes
             // 
-            this.dtgvContendorClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvContendorClientes.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtgvContendorClientes.Location = new System.Drawing.Point(0, 25);
-            this.dtgvContendorClientes.Name = "dtgvContendorClientes";
-            this.dtgvContendorClientes.Size = new System.Drawing.Size(864, 442);
-            this.dtgvContendorClientes.TabIndex = 5;
+            this.dtgvContenedorClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvContenedorClientes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgvContenedorClientes.Location = new System.Drawing.Point(0, 25);
+            this.dtgvContenedorClientes.Name = "dtgvContenedorClientes";
+            this.dtgvContenedorClientes.Size = new System.Drawing.Size(864, 442);
+            this.dtgvContenedorClientes.TabIndex = 5;
             // 
             // tstBarraClientes
             // 
@@ -115,7 +115,7 @@
             this.toolStripSeparator8,
             this.tstbtnModificarC,
             this.toolStripSeparator9,
-            this.tstbtnEliminaar,
+            this.tstbtnEliminar,
             this.toolStripSeparator10,
             this.toolStripButton5});
             this.tstBarraClientes.Location = new System.Drawing.Point(0, 0);
@@ -192,15 +192,15 @@
             this.toolStripSeparator9.Name = "toolStripSeparator9";
             this.toolStripSeparator9.Size = new System.Drawing.Size(6, 25);
             // 
-            // tstbtnEliminaar
+            // tstbtnEliminar
             // 
-            this.tstbtnEliminaar.Image = ((System.Drawing.Image)(resources.GetObject("tstbtnEliminaar.Image")));
-            this.tstbtnEliminaar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tstbtnEliminaar.Name = "tstbtnEliminaar";
-            this.tstbtnEliminaar.Size = new System.Drawing.Size(70, 22);
-            this.tstbtnEliminaar.Text = "Eliminar";
-            this.tstbtnEliminaar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.tstbtnEliminaar.Click += new System.EventHandler(this.tstbtnEliminar_Click);
+            this.tstbtnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("tstbtnEliminar.Image")));
+            this.tstbtnEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tstbtnEliminar.Name = "tstbtnEliminar";
+            this.tstbtnEliminar.Size = new System.Drawing.Size(70, 22);
+            this.tstbtnEliminar.Text = "Eliminar";
+            this.tstbtnEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.tstbtnEliminar.Click += new System.EventHandler(this.tstbtnEliminar_Click);
             // 
             // toolStripSeparator10
             // 
@@ -222,7 +222,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(864, 501);
-            this.Controls.Add(this.panelContendorClientes);
+            this.Controls.Add(this.panelContenedorClientes);
             this.Controls.Add(this.panelcabeceraClientes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Clientes";
@@ -230,9 +230,9 @@
             this.Load += new System.EventHandler(this.Clientes_Load);
             this.panelcabeceraClientes.ResumeLayout(false);
             this.panelcabeceraClientes.PerformLayout();
-            this.panelContendorClientes.ResumeLayout(false);
-            this.panelContendorClientes.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvContendorClientes)).EndInit();
+            this.panelContenedorClientes.ResumeLayout(false);
+            this.panelContenedorClientes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvContenedorClientes)).EndInit();
             this.tstBarraClientes.ResumeLayout(false);
             this.tstBarraClientes.PerformLayout();
             this.ResumeLayout(false);
@@ -242,7 +242,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panelcabeceraClientes;
-        private System.Windows.Forms.Panel panelContendorClientes;
+        private System.Windows.Forms.Panel panelContenedorClientes;
         private System.Windows.Forms.ToolStrip tstBarraClientes;
         private System.Windows.Forms.ToolStripLabel toolStripLabel2;
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
@@ -254,11 +254,11 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
         private System.Windows.Forms.ToolStripButton tstbtnModificarC;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
-        private System.Windows.Forms.ToolStripButton tstbtnEliminaar;
+        private System.Windows.Forms.ToolStripButton tstbtnEliminar;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
         private System.Windows.Forms.ToolStripButton toolStripButton5;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelcabecera;
         private System.Windows.Forms.Label label1;
-        public System.Windows.Forms.DataGridView dtgvContendorClientes;
+        public System.Windows.Forms.DataGridView dtgvContenedorClientes;
     }
 }

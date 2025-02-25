@@ -29,7 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelContendorDelogo = new System.Windows.Forms.Panel();
+            this.ptLogo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -39,21 +40,32 @@
             this.lblLogin = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.btnCerrarLogin = new System.Windows.Forms.Button();
-            this.ptLogo = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
+            this.panelContendorDelogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptLogo)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // panelContendorDelogo
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.panel1.Controls.Add(this.ptLogo);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(253, 330);
-            this.panel1.TabIndex = 0;
-            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            this.panelContendorDelogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.panelContendorDelogo.Controls.Add(this.ptLogo);
+            this.panelContendorDelogo.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelContendorDelogo.Location = new System.Drawing.Point(0, 0);
+            this.panelContendorDelogo.Name = "panelContendorDelogo";
+            this.panelContendorDelogo.Size = new System.Drawing.Size(253, 330);
+            this.panelContendorDelogo.TabIndex = 0;
+            this.panelContendorDelogo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // ptLogo
+            // 
+            this.ptLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.ptLogo.Image = ((System.Drawing.Image)(resources.GetObject("ptLogo.Image")));
+            this.ptLogo.Location = new System.Drawing.Point(0, 41);
+            this.ptLogo.Name = "ptLogo";
+            this.ptLogo.Size = new System.Drawing.Size(253, 247);
+            this.ptLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptLogo.TabIndex = 0;
+            this.ptLogo.TabStop = false;
+            this.ptLogo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -178,18 +190,6 @@
             this.btnCerrarLogin.UseVisualStyleBackColor = true;
             this.btnCerrarLogin.Click += new System.EventHandler(this.btnCerrarLogin_Click);
             // 
-            // ptLogo
-            // 
-            this.ptLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.ptLogo.Image = ((System.Drawing.Image)(resources.GetObject("ptLogo.Image")));
-            this.ptLogo.Location = new System.Drawing.Point(0, 41);
-            this.ptLogo.Name = "ptLogo";
-            this.ptLogo.Size = new System.Drawing.Size(253, 247);
-            this.ptLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptLogo.TabIndex = 0;
-            this.ptLogo.TabStop = false;
-            this.ptLogo.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -205,7 +205,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelContendorDelogo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.Opacity = 0.9D;
@@ -213,7 +213,7 @@
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
-            this.panel1.ResumeLayout(false);
+            this.panelContendorDelogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ptLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -222,7 +222,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelContendorDelogo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label label2;

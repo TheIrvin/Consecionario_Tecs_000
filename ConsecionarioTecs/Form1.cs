@@ -90,7 +90,7 @@ namespace ConsecionarioTecs
             Clientes frmCs = Owner as Clientes;
             cadena = "'" + txtNombreC.Text + "','" + txtCompañiaC.Text + "','" + txtTituloC.Text + "','" + txtDireccionC.Text + "','" + txtCiudadC.Text + "','" + txtRegionC.Text + "','" + txtPaisC.Text + "','" + txtTelefonoC.Text + "','" + txtUsuarioC.Text + "','" + txtContraseñaC.Text + "'";
             ConexionClientes.insertarDatos("Clientes", "[Nombre Cliente],[Empresa Cliente],[Titulo Cliente],Dirección,Ciudad,Región,País,Teléfono,[Login Usuario],[Login Contraseña]", cadena);
-            frmCs.dtgvContendorClientes.DataSource = ConexionClientes.retornaRegistros("Select * from Clientes");
+            frmCs.dtgvContenedorClientes.DataSource = ConexionClientes.retornaRegistros("Select * from Clientes");
             this.Close();
         }
 
