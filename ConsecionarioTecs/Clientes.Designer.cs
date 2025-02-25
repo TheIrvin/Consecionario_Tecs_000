@@ -43,7 +43,7 @@
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.tstbtAgregarC = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.tstbtnModificarC = new System.Windows.Forms.ToolStripButton();
+            this.tstbtnModificaarC = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.tstbtnEliminar = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
@@ -113,7 +113,7 @@
             this.toolStripSeparator7,
             this.tstbtAgregarC,
             this.toolStripSeparator8,
-            this.tstbtnModificarC,
+            this.tstbtnModificaarC,
             this.toolStripSeparator9,
             this.tstbtnEliminar,
             this.toolStripSeparator10,
@@ -177,15 +177,15 @@
             this.toolStripSeparator8.Name = "toolStripSeparator8";
             this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
             // 
-            // tstbtnModificarC
+            // tstbtnModificaarC
             // 
-            this.tstbtnModificarC.Image = ((System.Drawing.Image)(resources.GetObject("tstbtnModificarC.Image")));
-            this.tstbtnModificarC.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tstbtnModificarC.Name = "tstbtnModificarC";
-            this.tstbtnModificarC.Size = new System.Drawing.Size(78, 22);
-            this.tstbtnModificarC.Text = "Modificar";
-            this.tstbtnModificarC.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.tstbtnModificarC.Click += new System.EventHandler(this.tstbtnModificarC_Click);
+            this.tstbtnModificaarC.Image = ((System.Drawing.Image)(resources.GetObject("tstbtnModificaarC.Image")));
+            this.tstbtnModificaarC.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tstbtnModificaarC.Name = "tstbtnModificaarC";
+            this.tstbtnModificaarC.Size = new System.Drawing.Size(78, 22);
+            this.tstbtnModificaarC.Text = "Modificar";
+            this.tstbtnModificaarC.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.tstbtnModificaarC.Click += new System.EventHandler(this.tstbtnModificarC_Click);
             // 
             // toolStripSeparator9
             // 
@@ -252,7 +252,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
         private System.Windows.Forms.ToolStripButton tstbtAgregarC;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
-        private System.Windows.Forms.ToolStripButton tstbtnModificarC;
+        private System.Windows.Forms.ToolStripButton tstbtnModificaarC;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
         private System.Windows.Forms.ToolStripButton tstbtnEliminar;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
