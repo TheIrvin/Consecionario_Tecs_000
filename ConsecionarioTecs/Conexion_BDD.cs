@@ -24,7 +24,6 @@ namespace ConsecionarioTecs
 
             public Conexion_BDD()
             {
-
                 Server = "DESKTOP-9SMDLH8\\SQLEXPRESS";
                 Database = "CompañiaTecsBDD";
                 Usuario = "AccesoChari";

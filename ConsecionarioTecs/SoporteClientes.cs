@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FormularioDeInicio
 {
-    public partial class Soporte : Form
+    public partial class SoporteClientes : Form
     {
-        public Soporte()
+        public SoporteClientes()
         {
             InitializeComponent();
         }
@@ -20,11 +20,6 @@ namespace FormularioDeInicio
         private void lblxSoporteClientes_Click(object sender, EventArgs e)
         {
             
-        }
-
-        private void panaleta_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
