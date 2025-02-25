@@ -1,6 +1,6 @@
 ﻿namespace FormularioDeInicio
 {
-    partial class Ventas
+    partial class Usuarios
     {
         /// <summary>
         /// Required designer variable.
@@ -36,7 +36,7 @@
             // 
             this.lblxEst.AutoSize = true;
             this.lblxEst.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblxEst.Location = new System.Drawing.Point(0, 0);
+            this.lblxEst.Location = new System.Drawing.Point(1, 3);
             this.lblxEst.Name = "lblxEst";
             this.lblxEst.Size = new System.Drawing.Size(27, 26);
             this.lblxEst.TabIndex = 3;
@@ -49,21 +49,21 @@
             this.lblEstadisticas1.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstadisticas1.Location = new System.Drawing.Point(351, 0);
             this.lblEstadisticas1.Name = "lblEstadisticas1";
-            this.lblEstadisticas1.Size = new System.Drawing.Size(102, 26);
+            this.lblEstadisticas1.Size = new System.Drawing.Size(132, 26);
             this.lblEstadisticas1.TabIndex = 2;
-            this.lblEstadisticas1.Text = "VENTAS";
+            this.lblEstadisticas1.Text = "USUARIOS";
             this.lblEstadisticas1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblEstadisticas1.Click += new System.EventHandler(this.lblEstadisticas1_Click);
             // 
-            // Ventas
+            // Usuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblxEst);
             this.Controls.Add(this.lblEstadisticas1);
-            this.Name = "Ventas";
-            this.Text = "Ventas";
-            this.Load += new System.EventHandler(this.Ventas_Load);
+            this.Name = "Usuarios";
+            this.Text = "Usuarios";
             this.ResumeLayout(false);
             this.PerformLayout();
 

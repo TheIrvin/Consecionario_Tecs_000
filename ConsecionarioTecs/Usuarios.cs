@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace FormularioDeInicio
 {
-    public partial class SoporteClientes : Form
+    public partial class Usuarios : Form
     {
-        public SoporteClientes()
+        public Usuarios()
         {
             InitializeComponent();
         }
 
-        private void lblxSoporteClientes_Click(object sender, EventArgs e)
+        private void lblEstadisticas1_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

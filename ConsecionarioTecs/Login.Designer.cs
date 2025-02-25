@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ptLogo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,9 +38,8 @@
             this.btnAcceder = new System.Windows.Forms.Button();
             this.lnklConPerdida = new System.Windows.Forms.LinkLabel();
             this.lblLogin = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnCerrarLogin = new System.Windows.Forms.Button();
-            this.ptLogo = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptLogo)).BeginInit();
             this.SuspendLayout();
@@ -54,6 +54,18 @@
             this.panel1.Size = new System.Drawing.Size(253, 330);
             this.panel1.TabIndex = 0;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // ptLogo
+            // 
+            this.ptLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.ptLogo.Image = ((System.Drawing.Image)(resources.GetObject("ptLogo.Image")));
+            this.ptLogo.Location = new System.Drawing.Point(0, 41);
+            this.ptLogo.Name = "ptLogo";
+            this.ptLogo.Size = new System.Drawing.Size(253, 247);
+            this.ptLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptLogo.TabIndex = 0;
+            this.ptLogo.TabStop = false;
+            this.ptLogo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -148,21 +160,6 @@
             this.lblLogin.Text = "LOGIN";
             this.lblLogin.Click += new System.EventHandler(this.label3_Click);
             // 
-            // button1
-            // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowFrame;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::ConsecionarioTecs.Properties.Resources.Icono_Minimizar;
-            this.button1.Location = new System.Drawing.Point(725, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 23);
-            this.button1.TabIndex = 10;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // btnCerrarLogin
             // 
             this.btnCerrarLogin.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -178,17 +175,20 @@
             this.btnCerrarLogin.UseVisualStyleBackColor = true;
             this.btnCerrarLogin.Click += new System.EventHandler(this.btnCerrarLogin_Click);
             // 
-            // ptLogo
+            // button1
             // 
-            this.ptLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.ptLogo.Image = ((System.Drawing.Image)(resources.GetObject("ptLogo.Image")));
-            this.ptLogo.Location = new System.Drawing.Point(0, 41);
-            this.ptLogo.Name = "ptLogo";
-            this.ptLogo.Size = new System.Drawing.Size(253, 247);
-            this.ptLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptLogo.TabIndex = 0;
-            this.ptLogo.TabStop = false;
-            this.ptLogo.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowFrame;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::ConsecionarioTecs.Properties.Resources.Icono_Minimizar;
+            this.button1.Location = new System.Drawing.Point(725, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(25, 23);
+            this.button1.TabIndex = 10;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Login
             // 
